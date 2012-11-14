@@ -1,0 +1,43 @@
+#input {
+	text-align: center;
+}
+
+#input label {
+	display: block;
+}
+
+#input input {
+	width: 600px;
+}
+
+#suggests {
+	display: none;
+	background-color: #FFF;
+	border: 1px solid black;
+	border-width: 0px 1px 1px 1px;
+	position: absolute;
+	z-index: 1;
+	width: 600px;
+	left: 50%;
+	margin-left: -300px;
+}
+
+.suggestRow {
+	float: left;
+	width: 560px;
+	padding: 3px 10px 10px 30px;
+}
+
+.suggestRow:hover {
+	background-color: #E7E7E7;
+	cursor: pointer;
+}
+
+#map {
+	border: 1px solid black;
+	width: 600px;
+	height: 500px;
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+}
